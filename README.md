@@ -12,6 +12,13 @@ Jupyter Notebook
 ## Dependencies
 quantmod
 
+## List of the questions for simple stock tutorial in R:
+______________________________________________________________________________________________________________________________
+  1. How to get data from quantmod, yahoo, or other sites?
+  2. How to analyze the stock data?
+
+______________________________________________________________________________________________________________________________
+
 ## Authors
 * Tin Hang
 
