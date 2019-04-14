@@ -15,8 +15,9 @@ quantmod
 ## List of the questions for simple stock tutorial in R:
 ______________________________________________________________________________________________________________________________
   1. How to get data from quantmod, yahoo, or other sites?
+  2. How to manipulate data in dataframe or array?
   2. How to analyze the Historical stock data?
-
+  3. How to plot data in different type visualization?
 ______________________________________________________________________________________________________________________________
 
 ## Authors
