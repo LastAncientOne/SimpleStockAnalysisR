@@ -5,9 +5,9 @@ This is tutorial for Simple Stock Analysis. It is very simple and easy to unders
 ## Prerequistes
 R 
 
-Rstudio
+RStudio - Use R Notebook
 
-Jupyter Notebook
+Jupyter Notebook - Use R in Jupyter
 
 ## Dependencies
 quantmod
