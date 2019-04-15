@@ -20,6 +20,10 @@ ________________________________________________________________________________
   3. How to plot data in different type visualization?
 ______________________________________________________________________________________________________________________________
 
+## See the preview of my tutorial
+https://htmlpreview.github.io/  # For html view
+https://nbviewer.jupyter.org/ # For jupyter view
+
 ## Authors
 * Tin Hang
 
