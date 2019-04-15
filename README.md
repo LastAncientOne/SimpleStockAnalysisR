@@ -21,6 +21,7 @@ ________________________________________________________________________________
 ______________________________________________________________________________________________________________________________
 
 ## See the preview of my tutorial
+### Paste the address on the website
 https://htmlpreview.github.io/  # For html view
 https://nbviewer.jupyter.org/ # For jupyter view
 
