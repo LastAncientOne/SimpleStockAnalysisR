@@ -1,3 +1,5 @@
+<img src="Title.PNG">
+
 # Simple Stock Analysis in R
 
 This is tutorial for Simple Stock Analysis. It is very simple and easy to understand for beginners that wants to learn about stock analysis and wants to become a quant. In addition, this tutorial for people that want to learn R language for stock analysis. 
