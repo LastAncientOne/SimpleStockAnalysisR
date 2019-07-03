@@ -1,6 +1,6 @@
 <img src="Title.PNG">
 
-# Simple Stock Analysis in R
+# Simple Stock Analysis in R  
 
 This is tutorial for "Simple Stock Analysis in R." It is very simple and easy to understand for beginners that wants to learn about stock analysis and wants to become a quant. In addition, this tutorial for people that want to learn R language for stock analysis. 
 
@@ -26,17 +26,15 @@ https://htmlpreview.github.io/  # For html view
 
 https://nbviewer.jupyter.org/ # For jupyter view
 
-## Authors
-* Tin Hang
-
-
+## Authors  
+* Tin Hang  
 
 ## I will add more.
 ## I hope you enjoy learning this simple tutorial in R.
 
 
 ## Disclaimer
-Do not use this code for investing or trading in the stock market. However, if you are interest in the stock market, you should read books that are relate to stock market or finance.  
+&#x1F53B; Do not use this code for investing or trading in the stock market. However, if you are interest in the stock market, you should read books that are relate to stock market or finance.  
 
 
 ## This is not get rich quick and is for researching and educational purposes.
