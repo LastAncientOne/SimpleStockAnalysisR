@@ -4,9 +4,9 @@
 
 This is tutorial for "Simple Stock Analysis in R." It is very simple and easy to understand for beginners that wants to learn about stock analysis and wants to become a quant. In addition, this tutorial for people that want to learn R language for stock analysis. 
 
-## Prerequistes
-R 
-RStudio - Use R Notebook  
+## Prerequistes  
+R   
+RStudio - Use R Notebook    
 Jupyter Notebook - Use R in Jupyter  
 
 ## Dependencies
