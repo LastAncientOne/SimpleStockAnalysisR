@@ -1,0 +1,45 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+library(quantmod)
+```
+```{r}
+amd <- getSymbols("AMD", from = "2016-01-01", auto.assign = F)
+lineChart(amd, "2020-01-01::", line.type="o", theme = "white")
+```
+```{r}
+lineChart(amd, TA=NULL, theme="white")
+```
+```{r}
+barChart(amd, "2021-01-01::", bar.type="hlc", theme = "white", minor.ticks = F)
+```
+```{r}
+barChart(amd, "2021-01-01::", bar.type="ohlc", theme = "white", minor.ticks = F)
+```
+```{r}
+candleChart(amd, "2021-01-01::", theme = "white", minor.ticks = F)
+```
+```{r}
+cp <- chart_pars()
+cp$mar <- c(4,2,0,2)
+cp$cex <- 0.8
+chart_Series(amd, subset = "2021-01-01::", pars = cp, TA = "add_Vo()")
+```
+```{r}
+ct <- chart_theme()
+ct$rylab <- F
+ct$col$line.col <- c("red", "green", "blue", "black")
+chart_Series(amd, subset = "2021-06-01::", type = "ohlc", pars = cp, TA = "add_Vo()", theme = ct)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+```{r}
+chart_Series(amd, subset = "2021-06-01::", type = "line", pars = cp, TA = "add_Vo()", theme = ct)
+```
