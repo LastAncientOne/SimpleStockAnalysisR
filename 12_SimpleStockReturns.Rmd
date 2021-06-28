@@ -1,0 +1,90 @@
+---
+title: "Simple Stock calculations in Returns"
+output: html_notebook
+---
+
+```{r}
+library(quantmod)
+```
+
+# Calculate simple returns
+# Simple return: Rt = [ Pt - Pt-1 ]/ Pt-1
+# Ri = (today - yesterday) / yesterday
+
+```{r}
+amd <- getSymbols("AMD", from = "2020-01-01", auto.assign = F)
+```
+
+
+```{r}
+head(amd)
+```
+
+```{r}
+tail(amd)
+```
+```{r}
+amd$AMD.Adjusted
+```
+```{r}
+close <- amd$AMD.Adjusted
+head(close)
+```
+```{r}
+ret <- dailyReturn(close)
+tail(ret)
+```
+
+```{r}
+print("Log Returns")
+log_ret <- diff(log(close))
+tail(log_ret)
+```
+
+```{r}
+log_ret <- (diff(close)/close[-1] *  100)
+tail(log_ret)
+```
+```{r}
+apply(close, 2, Delt)
+```
+```{r}
+cbind(close[,1], apply(close, 2, Delt))
+```
+
+
+```{r}
+head(close)
+```
+```{r}
+close$change <- c(diff(close)/close[-1] *  100)
+tail(close)
+```
+
+# Drop NA
+```{r}
+close <- na.omit(close)
+head(close)
+```
+```{r}
+library(TTR)
+amd <- getSymbols("AMD", from = "2020-01-01", auto.assign = F)[,6]
+ret = ROC(amd)
+tail(ret)
+```
+```{r}
+amd <- getSymbols("AMD", from = "2020-01-01", auto.assign = F)[,6]
+amd_ret <- diff(log(amd))
+tail(amd_ret)
+```
+```{r}
+library(PerformanceAnalytics)
+prices <- getSymbols("AMD", from = "2020-01-01", auto.assign = F)[,6]
+
+price_ret = Return.calculate(prices, method = c("discrete", "log", "difference"))
+tail(price_ret)
+```
+```{r}
+price_ret = CalculateReturns(prices, method = c("discrete", "log"))
+tail(price_ret)
+```
