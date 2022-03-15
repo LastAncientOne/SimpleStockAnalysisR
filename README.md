@@ -17,7 +17,7 @@
 [issues-shield]: https://img.shields.io/github/issues/LastAncientOne/SimpleStockAnalysisR.svg?style=for-the-badge
 [issues-url]: https://github.com/LastAncientOne/SimpleStockAnalysisR/issues
 [license-shield]: https://img.shields.io/github/license/LastAncientOne/SimpleStockAnalysisR.svg?style=for-the-badge
-[license-url]: LICENSE
+[license-url]: LICENSE  
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/tin-hang
 
