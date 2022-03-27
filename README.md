@@ -32,6 +32,17 @@ R
 RStudio - Use R Notebook    
 Jupyter Notebook - Use R in Jupyter  
 
+### Download Langauge and Software  
+https://www.r-project.org/    
+https://www.rstudio.com/  
+https://www.spyder-ide.org/
+
+<h3 align="left"> Programming Language:</h3>
+<p align="left">  </a> <a href="https://www.r-project.org/" target="_blank"> <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/r/r.png" alt="R" width="100" height="100"/> </a> </p>  
+
+<h3 align="left"> Software:</h3>
+<p align="left">  </a> <a href="https://www.rstudio.com/" target="_blank"> <img src="https://www.kindpng.com/picc/m/235-2350384_r-studio-logo-transparent-hd-png-download.png" alt="R" width="250" height="100"/> </a> <a href="https://www.spyder-ide.org/" target="_blank"> <img src="https://www.kindpng.com/picc/m/86-862450_spyder-python-logo-png-transparent-png.png" alt="Spyder" width="100" height="100"/> </p>  
+
 ## Dependencies
 quantmod  
 
