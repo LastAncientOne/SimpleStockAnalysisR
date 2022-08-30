@@ -65,7 +65,7 @@ https://nbviewer.jupyter.org/ # For jupyter view
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/lastancientone)  
 
 ## Authors  
-* Tin Hang  
+### * Tin Hang    
 
 ## I will add more.
 ## I hope you enjoy learning this simple tutorial in R.
