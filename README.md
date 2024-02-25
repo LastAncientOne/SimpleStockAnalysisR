@@ -64,13 +64,13 @@ https://nbviewer.jupyter.org/ # For jupyter view
 <a href="https://www.buymeacoffee.com/lastancientone" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>  
 
 ## Authors  
-### * Tin Hang    
+### Tin Hang    
 
 ## I hope you enjoy learning from this simple tutorial in R.  
 
 
 ## Disclaimer
-&#x1F53B; Do not use this code for investing or trading in the stock market. However, if you are interest in the stock market, you should read books &#x1F4D8; &#x1F4D7; &#x1F4D9; that are relate to stock market or finance.  
+&#x1F53B; Do not use this code for investing or trading in the stock market. However, if you are interested in the stock market, you should read books  &#x1F4D8; &#x1F4D7; &#x1F4D9; hat are related to the stock market or finance.  
 
 
-## This is not a "get rich quick" scheme; rather, it is intended for research and educational purposes.  
+## This is not a "get-rich-quick" scheme; rather, it is intended for research and educational purposes.  
